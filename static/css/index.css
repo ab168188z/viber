@@ -1,0 +1,571 @@
+﻿body {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+.navbar {
+  position: fixed;
+  /* min-width: 1280px; */
+  width: 100%;
+  height: 80px;
+
+  background-color: #FFFFFF;
+  z-index: 1000;
+
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, .1);
+
+
+}
+
+.navbar .navbackImg {
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 1280px;
+  padding-left: 100px;
+  height: 80px;
+  -webkit-user-drag: none;
+  background-repeat: no-repeat;
+}
+
+.navbar .buttton {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 14px;
+  right: 100px;
+  width: 180px;
+  height: 52px;
+  /* background: #4096FF; */
+  background-image: url(../image/navbar-but.webp);
+  background-size: 180px;
+  background-repeat: no-repeat;
+  border-radius: 8px 8px 8px 8px;
+  font-size: 18px;
+  line-height: 16px;
+  color: #FFFFFF;
+  cursor: pointer;
+  user-select: none;
+}
+
+
+
+.navbar .left {
+  position: absolute;
+  left: 300px;
+  top: 20px;
+
+
+}
+
+
+
+.navbar .left span {
+  width: 160px;
+  height: 34px;
+  margin: 12px;
+  font-size: 30px;
+  font-weight: 700;
+  color: #1F67CF;
+  line-height: 34px;
+}
+
+.navbar .center .clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.navbar .center input {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  font-weight: normal;
+}
+
+.navbar .center .head_content {
+  float: left;
+  margin: 15px 0 0 550px;
+
+}
+
+.navbar .center .serach {
+  float: left;
+  width: 212px;
+  height: 32px;
+  margin-top: 6px;
+  border: 1px solid #c9c9c9;
+  border-radius: 4px;
+  margin-left: 10px;
+  font-size: 0px;
+}
+
+.navbar .center .serach img {
+  height: 30px;
+  vertical-align: top;
+}
+
+.navbar .center .txt {
+  height: 30px;
+  width: 100px;
+  padding-left: 10px;
+  display: inline-block;
+  font-size: 14px;
+  outline: none;
+}
+
+.navbar .center .serach .btn {
+  width: 59px;
+  line-height: 32px;
+  background: #008ded;
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+  float: right;
+  border-radius: 0 4px 4px 0;
+}
+
+.navbar .center .keywos {
+  float: left;
+  font-size: 14px;
+  line-height: 45px;
+  position: initial;
+}
+
+.navbar .center .keywos a {
+  color: #5c5c5c;
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+.navbar .center .keywos a:hover {
+  text-decoration: none;
+  color: #0A50A1;
+}
+
+.block1 {
+  padding-top: 80px;
+  /* background-color: rgb(242, 250, 255); */
+  background: linear-gradient(180deg, #9fccff 0%, rgba(170, 219, 250, 0) 100%);
+
+
+}
+
+.backImg {
+
+  display: flex;
+  justify-content: center;
+  /* background-image: url("../img/backImg.png"); */
+  background-repeat: no-repeat;
+  background-size: 1920px;
+  background-position: center;
+  -webkit-user-drag: none;
+}
+
+.block1 .inImg {
+  width: 1280px;
+  -webkit-user-drag: none;
+
+}
+
+.block1 .but {
+  display: flex;
+  width: 500px;
+  height: 80px;
+  position: absolute;
+  left: 80px;
+  bottom: 105px;
+}
+
+.block1 .buttton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 290px;
+  height: 80px;
+  margin-right: 20px;
+  /* background: linear-gradient(262.37deg, #48B7FE 18.48%, #2A65F1 80.87%); */
+  /* background-image: url(/img/bg-button.webp); */
+  background-image: url(../image/bg-button.webp);
+  background-size: 250px;
+  background-repeat: no-repeat;
+  border-radius: 12px 12px 12px 12px;
+  font-size: 26px;
+  line-height: 30px;
+  color: #FFFFFF;
+  cursor: pointer;
+  user-select: none;
+  animation: glowing-pulse 1.5s infinite;
+}
+
+
+
+.block1 .buttton1 {
+  width: 290px;
+  height: 80px;
+  background: #FFFFFF;
+  border: 1px #C9CDD4 solid;
+  border-radius: 12px 12px 12px 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 26px;
+  line-height: 30px;
+  color: #4E5969;
+  cursor: pointer;
+  user-select: none;
+}
+
+.block2 {
+  display: flex;
+  justify-content: center;
+}
+
+.block2 .inImg {
+  cursor: pointer;
+  width: 1280px;
+
+
+  -webkit-user-drag: none;
+
+}
+
+.block2 .but {
+  display: flex;
+  width: 500px;
+  height: 65px;
+  position: absolute;
+  right: 70px;
+  bottom: 230px;
+}
+
+.block2 .buttton {
+
+
+  width: 224px;
+  height: 65px;
+  background: #4096FF;
+  border-radius: 12px 12px 12px 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  line-height: 30px;
+  color: #FFFFFF;
+  cursor: pointer;
+  user-select: none;
+}
+
+.block2 .buttton1 {
+
+  margin-left: 20px;
+  width: 224px;
+  height: 65px;
+  background: #FFFFFF;
+  border-radius: 12px 12px 12px 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  line-height: 30px;
+  color: #4E5969;
+  cursor: pointer;
+  user-select: none;
+}
+
+.block2 .buttton:hover {
+  background: #559ffa;
+}
+
+.block3 {
+
+  background-color: rgb(242, 250, 255);
+
+
+}
+
+
+
+.block3 .inImg {
+  width: 1280px;
+  -webkit-user-drag: none;
+
+}
+
+.block3 .but {
+  display: flex;
+  width: 500px;
+  height: 65px;
+  position: absolute;
+  left: 90px;
+  bottom: 190px;
+}
+
+.block3 .buttton {
+  width: 224px;
+  height: 65px;
+  background: #4096FF;
+  border-radius: 12px 12px 12px 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  line-height: 30px;
+  color: #FFFFFF;
+  cursor: pointer;
+  user-select: none;
+}
+
+.block3 .buttton1 {
+
+  margin-left: 20px;
+  width: 224px;
+  height: 65px;
+  background: #FFFFFF;
+  border-radius: 12px 12px 12px 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  line-height: 30px;
+  color: #4E5969;
+  cursor: pointer;
+  user-select: none;
+}
+
+.block3 .buttton:hover {
+  background: #559ffa;
+}
+
+
+
+/* 定义tab栏的样式 */
+.tab {
+  display: inline-block;
+  width: 90px;
+  height: 65px;
+  padding: 20px 0 20px 0;
+  margin-left: 70px;
+  cursor: pointer;
+  font-size: 14px;
+
+  /* 添加线条的初始样式 */
+  border-bottom: 2px solid transparent;
+  transition: border-color 0.5s ease;
+
+}
+
+/* 定义选中tab栏的样式 */
+.tab.active {
+  border-bottom-color: #559ffa;
+  color: #559ffa;
+  /* 平滑过渡效果 */
+}
+
+/* 定义图片的样式 */
+.image {
+  display: none;
+}
+
+/* 定义选中tab栏对应图片的样式 */
+.image.active {
+  display: block;
+}
+
+
+.block4 {
+
+  height: 870px;
+  text-align: center;
+
+}
+
+.block4 img {
+  -webkit-user-drag: none;
+
+  margin: 0 auto;
+  width: 1280px;
+  height: 520px;
+}
+
+.block5 {
+  display: flex;
+  justify-content: center;
+  position: relative;
+
+}
+
+.block5 .buttton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  width: 224px;
+  height: 56px;
+  background: #4096FF;
+  border-radius: 10px 10px 10px 10px;
+  position: absolute;
+  bottom: 40px;
+  font-size: 20px;
+  color: #FFFFFF;
+}
+
+.block5 .buttton:hover {
+  background: #559ffa;
+}
+
+.block5 img {
+  -webkit-user-drag: none;
+
+
+}
+
+.bottom img {
+  -webkit-user-drag: none;
+
+}
+
+.block6 {
+  display: flex;
+  justify-content: center;
+}
+
+.block5 img {
+  -webkit-user-drag: none;
+
+
+}
+
+#wrapper {
+  cursor: pointer;
+  width: 100%;
+  overflow: hidden;
+  margin: 40px auto;
+  border: 1px sodivd #000;
+  display: flex;
+
+
+}
+
+.inner {
+  display: flex;
+  padding: 0;
+
+}
+
+.li {
+  background-color: #fff;
+  margin: 0 15px;
+  width: 384px;
+  height: 220px;
+
+  border-radius: 16px;
+  user-select: none;
+
+}
+
+.pingjia {
+  background: linear-gradient(180deg, #ECF5FF 0%, rgba(245, 250, 255, 0.00) 100%);
+}
+
+.pingjia .content {
+  padding-top: 80px;
+  margin: 0 auto;
+  width: 1200px;
+  height: 713px;
+  text-align: center;
+}
+
+.pingjia .title {
+
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.pingjia .frame {
+  margin-top: 48px;
+  display: flex;
+  width: 1200px;
+  justify-content: center;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.pingjia .frame .li {
+  margin: 0;
+
+  width: 528px;
+  height: 208px;
+  padding: 24px;
+  box-sizing: border-box;
+  border-radius: 12px;
+  background: var(--fill-fill-white-100, #FFF);
+  text-align: left;
+  /* 一级阴影 */
+  box-shadow: 0px 2px 8px 0px rgba(29, 33, 41, 0.08);
+
+}
+
+.pingjia .frame span {
+
+  font-size: 14px;
+  line-height: 25px;
+}
+
+.pingjia .frame img {
+  width: 540px;
+  height: 20px;
+  margin-bottom: 8px;
+}
+
+.pingjia .frame .info {
+  width: 480px;
+  height: 48px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pingjia .frame .info img {
+  width: 36px;
+  height: 36px;
+  margin: 0;
+}
+
+
+.pingjia .buttton {
+  margin: 48px auto 16px auto;
+  width: 250px;
+  height: 80px;
+
+  background-image: url(../image/bg-button.webp);
+  background-size: 250px;
+  background-repeat: no-repeat;
+  border-radius: 12px 12px 12px 12px;
+  font-size: 26px;
+  line-height: 30px;
+  color: #FFFFFF;
+  cursor: pointer;
+  user-select: none;
+  animation: glowing-pulse 1.5s infinite;
+}
+
+.bottom {
+  font-size: 12px;
+  color: #444444;
+  line-height: 26px;
+  text-align: center;
+  padding: 35px;
+}
+
+img {
+  -webkit-user-drag: none;
+}
